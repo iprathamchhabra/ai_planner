@@ -12,7 +12,6 @@ function Hero() {
         Explore destinations, curate your dream itineraries, and get real-time recommendations with our AI-driven platform – creating the perfect trip tailored just for you.
       </p>
       
-      {/* New Additional Text */}
       <div className='text-center text-lg text-gray-500 max-w-xl mx-auto mt-6'>
         <p className='mb-4'>
           Whether you're looking for a weekend getaway, a family vacation, or an adventurous escape, our AI assistant understands your preferences and creates the best travel plans just for you.
@@ -22,14 +21,12 @@ function Hero() {
         </p>
       </div>
 
-      {/* CTA Button */}
       <Link to={'/create-trip'}>
         <Button className='mt-4 px-8 py-3 bg-[#2e2bd8] text-white rounded-lg shadow-md hover:bg-[#1c1b8b] transition-all'>
           Get Started for Free
         </Button>
       </Link>
 
-      {/* Optional Section to Add More Classy Visuals */}
       <div className='mt-3 text-center'>
         <p className='text-xl font-semibold text-gray-700'>
           Plan your dream vacation with the smartest travel companion by your side.
